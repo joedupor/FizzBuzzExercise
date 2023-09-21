@@ -1,0 +1,24 @@
+
+
+
+public static string FizzBuzz(int number)
+{
+    string value = "";
+
+    if (number % 3 == 0)
+    {
+        value = "fizz";
+    }
+
+    if (number % 5 == 0)
+    {
+        value = "buzz";
+    }
+
+    if (number % 3 == 0 && number % 5 == 0)
+    {
+        value = "fizzbuzz";
+    }
+
+    return value;
+}
